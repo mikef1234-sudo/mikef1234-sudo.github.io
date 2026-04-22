@@ -11,9 +11,9 @@ Static HTML website for Clarpoint, an advisory firm focused on project clarity, 
 - `contact.html` - inquiry form
 - `styles.css` - shared visual design and responsive layout
 - `script.js` - mobile navigation and contact form status message
-- `assets/clarpoint-logo.png` - cropped Clarpoint logo used in the site header
-- `assets/clarpoint-mark.png` - square Clarpoint mark used as the favicon
-- `assets/clarpoint-logo-source.png` - original source image for future logo exports
+- `clarpoint-logo.png` - cropped Clarpoint logo used in the site header
+- `clarpoint-mark.png` - square Clarpoint mark used as the favicon
+- `clarpoint-logo-source.png` - original source image for future logo exports
 
 ## Publish With Static Hosting
 
