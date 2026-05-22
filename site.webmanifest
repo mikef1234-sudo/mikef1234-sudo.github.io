@@ -1,0 +1,15 @@
+{
+  "name": "Clarpoint",
+  "short_name": "Clarpoint",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5ef",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/clarpoint-mark.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
