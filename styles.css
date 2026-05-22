@@ -153,6 +153,11 @@ a {
   margin-bottom: 28px;
 }
 
+.section-heading-fluid h2,
+.section-heading-fluid .body-copy {
+  max-width: none;
+}
+
 .eyebrow {
   margin: 0;
   color: var(--teal);
@@ -173,11 +178,11 @@ h3 {
 
 h1 {
   max-width: 1180px;
-  font-size: clamp(3rem, 6.2vw, 5.4rem);
+  font-size: clamp(3rem, 6.2vw, 4.5rem);
 }
 
 h2 {
-  max-width: 760px;
+  max-width: 100%;
   font-size: clamp(2rem, 4vw, 3.35rem);
 }
 
@@ -190,7 +195,6 @@ p {
 }
 
 .lead {
-  max-width: 760px;
   color: var(--ink-soft);
   font-size: 1.18rem;
 }
@@ -406,11 +410,59 @@ p {
   min-height: 250px;
 }
 
-.service-card .price {
-  background: rgba(197, 140, 16, 0.12);
-  border-color: rgba(197, 140, 16, 0.12);
-  color: #7a5200;
-  box-shadow: none;
+.service-model-stack {
+  display: grid;
+  gap: 22px;
+}
+
+.service-model-hero {
+  display: grid;
+  gap: 12px;
+}
+
+.service-model-hero h2,
+.service-model-hero .body-copy {
+  max-width: none;
+}
+
+.service-mode-rail {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.service-mode-band {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line-strong);
+}
+
+.service-mode-number {
+  color: rgba(20, 34, 32, 0.24);
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.service-mode-content {
+  display: grid;
+  gap: 10px;
+}
+
+.service-mode-label,
+.signal-label {
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.service-mode-content h3 {
+  font-size: 1.18rem;
 }
 
 .text-link {
@@ -418,6 +470,57 @@ p {
   font-weight: 800;
   text-decoration-color: rgba(15, 118, 110, 0.3);
   text-underline-offset: 4px;
+}
+
+.section-signals {
+  background:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 30%),
+    rgba(255, 255, 255, 0.66);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.signals-layout {
+  display: grid;
+  gap: 24px;
+}
+
+.signals-intro {
+  display: grid;
+  gap: 12px;
+}
+
+.signals-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.signal-item {
+  min-height: 0;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: var(--shadow);
+}
+
+.signal-item h3 {
+  font-size: 1.22rem;
+}
+
+.signal-item p:last-child {
+  color: var(--muted);
+}
+
+.service-card .price {
+  background: rgba(197, 140, 16, 0.12);
+  border-color: rgba(197, 140, 16, 0.12);
+  color: #7a5200;
+  box-shadow: none;
 }
 
 .split,
@@ -464,18 +567,6 @@ p {
     var(--teal);
 }
 
-.stat-card strong {
-  font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 3.4rem);
-  line-height: 1;
-  letter-spacing: -0.06em;
-}
-
-.stat-card span {
-  color: var(--teal-deep);
-  font-weight: 800;
-}
-
 .page-hero {
   position: relative;
   overflow: hidden;
@@ -495,7 +586,6 @@ p {
 .page-hero .container {
   position: relative;
   z-index: 1;
-  width: min(100% - 40px, 1420px);
   display: grid;
   gap: 14px;
 }
@@ -709,17 +799,18 @@ textarea:focus {
 }
 
 @media (max-width: 1100px) {
+  .signals-board,
   .card-grid.feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 980px) {
+  .service-mode-rail,
   .split,
   .service-detail,
   .contact-layout,
   .cta-inner,
-  .proof-stat-grid,
   .focus-grid,
   .process-grid {
     grid-template-columns: 1fr;
