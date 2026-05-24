@@ -1,0 +1,8 @@
+{
+  "name": "clarpoint-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:templates": "node scripts/generate-template-products.js"
+  }
+}
