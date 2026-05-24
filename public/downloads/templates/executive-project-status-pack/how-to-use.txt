@@ -1,0 +1,9 @@
+Executive Project Status Pack
+
+Recommended use order:
+1. Start with the Executive Status Report Template to frame the reporting story.
+2. Use the workbook and CSV logs to keep risks, actions, and decisions current.
+3. Use the email and escalation templates when leadership or client communication needs to move quickly.
+4. Use the steering committee deck to turn active project work into an executive discussion.
+
+Clear plans. Stronger communication. Better execution.

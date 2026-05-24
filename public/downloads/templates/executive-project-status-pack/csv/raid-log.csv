@@ -1,0 +1,5 @@
+ID,Type,Description,Impact,Owner,Mitigation / Next Step,Target Date,Status
+R-01,Risk,Approval timing may impact build start,Medium,Program Manager,Confirm approval owner and decision date,2026-06-02,Open
+A-01,Assumption,Content inputs will be available on time,Medium,Business Lead,Validate content readiness in weekly call,2026-06-04,Open
+I-01,Issue,Vendor dependency has not confirmed delivery date,High,Delivery Lead,Escalate in steering prep note,2026-05-30,In Progress
+D-01,Dependency,Analytics tagging requires external support,Medium,Tech Lead,Book working session with analytics owner,2026-06-06,Open

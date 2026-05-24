@@ -1,0 +1,3 @@
+ID,Category,Item,Impact,Owner,Mitigation,Review Date,Status
+R-01,Risk,Requirements still shifting,High,Project Lead,Freeze core scope by next checkpoint,2026-05-29,Open
+I-01,Issue,Decision backlog slowing approvals,High,Sponsor,Prioritize open approvals in steering prep,2026-05-30,In Progress

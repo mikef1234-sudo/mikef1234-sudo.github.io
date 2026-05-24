@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Clarpoint Social Library</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/admin/social/social-admin.css">
+  </head>
+  <body class="social-admin-body">
+    <header class="admin-topbar">
+      <div class="admin-topbar-inner">
+        <a class="brand" href="/" aria-label="Clarpoint home">
+          <img class="brand-logo" src="/clarpoint-logo.png" alt="Clarpoint">
+        </a>
+        <nav class="admin-topnav" aria-label="Admin navigation">
+          <a class="admin-toplink active" href="/admin/social">Library</a>
+          <a class="admin-toplink" href="/admin/social/import">Import</a>
+        </nav>
+        <div class="admin-topbar-actions">
+          <a class="button secondary" href="/admin/social/import">Import Word Batch</a>
+          <button class="button tertiary" type="button" data-admin-logout>Log out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <section class="admin-page-header">
+        <div>
+          <p class="eyebrow">Social library</p>
+          <h1>Imported Clarpoint posts, image assets, and copy-ready platform versions</h1>
+        </div>
+        <p class="lead">Filter by batch, platform, status, or schedule date, then preview, edit, copy, approve, or mark posts as posted.</p>
+      </section>
+
+      <section class="admin-section">
+        <div class="admin-filter-bar">
+          <label>
+            <span>Batch</span>
+            <select id="filterBatch"></select>
+          </label>
+          <label>
+            <span>Platform</span>
+            <select id="filterPlatform">
+              <option value="">All</option>
+              <option>Instagram</option>
+              <option>Facebook</option>
+              <option>LinkedIn</option>
+            </select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select id="filterStatus">
+              <option value="">All</option>
+              <option>Draft</option>
+              <option>Approved</option>
+              <option>Posted</option>
+            </select>
+          </label>
+          <label>
+            <span>Scheduled date</span>
+            <input id="filterScheduledDate" type="date">
+          </label>
+          <button class="button secondary" type="button" id="applyFilters">Apply filters</button>
+        </div>
+      </section>
+
+      <section class="admin-section">
+        <div id="libraryGrid" class="social-card-grid"></div>
+      </section>
+    </main>
+
+    <dialog id="previewDialog" class="preview-dialog">
+      <div class="preview-dialog-head">
+        <div>
+          <p class="eyebrow">Platform preview</p>
+          <h2 id="previewTitle">Preview</h2>
+        </div>
+        <button class="button tertiary" type="button" id="closePreview">Close</button>
+      </div>
+      <div class="preview-tabs">
+        <button type="button" class="preview-tab active" data-preview-platform="linkedin">LinkedIn</button>
+        <button type="button" class="preview-tab" data-preview-platform="instagram">Instagram</button>
+        <button type="button" class="preview-tab" data-preview-platform="facebook">Facebook</button>
+      </div>
+      <div id="previewCanvas"></div>
+    </dialog>
+
+    <script src="/admin/social/social-admin.js"></script>
+    <script src="/admin/social/library.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Clarpoint Reel Renderer</title>
+    <style>
+      :root {
+        --bg: #0d1716;
+        --paper: #f7f6ef;
+        --ink: #142220;
+        --muted: #55706a;
+        --teal: #0f766e;
+        --gold: #c58c10;
+        --blue: #2158d8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        gap: 18px;
+        padding: 24px;
+        font-family: "Manrope", "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.18), transparent 30%),
+          linear-gradient(180deg, #091110 0%, #111e1c 100%);
+        color: #fff;
+      }
+
+      .panel {
+        width: min(100%, 1180px);
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+      }
+
+      .panel h1 {
+        margin: 0;
+        font-size: 1.4rem;
+      }
+
+      .panel p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+      }
+
+      button {
+        min-height: 48px;
+        padding: 12px 18px;
+        border: 0;
+        border-radius: 999px;
+        background: #fff;
+        color: var(--ink);
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      button.primary {
+        background: var(--teal);
+        color: #fff;
+      }
+
+      canvas {
+        width: min(360px, calc(100vw - 48px));
+        height: auto;
+        border-radius: 28px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+        background: var(--paper);
+      }
+
+      .status {
+        min-height: 24px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel">
+      <h1>Clarpoint Website Clarity Reel</h1>
+      <p>Render and download a vertical reel file from this private route.</p>
+      <div class="controls">
+        <button class="primary" id="renderBtn" type="button">Render and Download</button>
+        <button id="previewBtn" type="button">Preview</button>
+      </div>
+      <canvas id="reelCanvas" width="1080" height="1920" aria-label="Reel preview"></canvas>
+      <div class="status" id="status"></div>
+    </div>
+
+    <script src="./reel-renderer.js"></script>
+  </body>
+</html>

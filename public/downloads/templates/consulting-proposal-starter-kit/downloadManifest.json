@@ -1,0 +1,157 @@
+{
+  "productId": "consulting-proposal-starter-kit",
+  "productName": "Consulting Proposal Starter Kit",
+  "price": null,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "pdf/Quick Start Guide.pdf",
+      "label": "Quick Start Guide.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "pdf",
+      "path": "pdf/product-summary.pdf",
+      "label": "product-summary.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "word",
+      "path": "word/clarpoint-consulting-proposal-guide.docx",
+      "label": "clarpoint-consulting-proposal-guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/client-onboarding-checklist.docx",
+      "label": "client-onboarding-checklist.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/consulting-proposal-template.docx",
+      "label": "consulting-proposal-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/discovery-call-notes-template.docx",
+      "label": "discovery-call-notes-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/scope-change-request-template.docx",
+      "label": "scope-change-request-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/service-offering-worksheet.docx",
+      "label": "service-offering-worksheet.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "excel",
+      "path": "excel/consulting-pricing-and-scope-workbook.xlsx",
+      "label": "consulting-pricing-and-scope-workbook.xlsx",
+      "description": "Formatted Excel workbook with structured tabs, sample data, and reusable working views."
+    },
+    {
+      "format": "powerpoint",
+      "path": "powerpoint/consulting-proposal-deck.pptx",
+      "label": "consulting-proposal-deck.pptx",
+      "description": "Presentation deck for client, leadership, kickoff, or delivery conversations."
+    },
+    {
+      "format": "csv",
+      "path": "csv/client-fit-scorecard-blank.csv",
+      "label": "client-fit-scorecard-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/client-fit-scorecard-example.csv",
+      "label": "client-fit-scorecard-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/pricing-options-template-blank.csv",
+      "label": "pricing-options-template-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/pricing-options-template-example.csv",
+      "label": "pricing-options-template-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/pricing-table-blank.csv",
+      "label": "pricing-table-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/pricing-table-example.csv",
+      "label": "pricing-table-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/pricing-table.csv",
+      "label": "pricing-table.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/scope-assumptions-tracker-blank.csv",
+      "label": "scope-assumptions-tracker-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/scope-assumptions-tracker-example.csv",
+      "label": "scope-assumptions-tracker-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "preview",
+      "path": "preview/consulting-deck.png",
+      "label": "consulting-deck.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/consulting-pricing-and-scope-workbook.png",
+      "label": "consulting-pricing-and-scope-workbook.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/index.html",
+      "label": "index.html",
+      "description": "Optional browser preview that shows the toolkit structure and included files."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Example Use Case.docx",
+      "label": "Example Use Case.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Licensing Note.docx",
+      "label": "Licensing Note.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Usage Guide.docx",
+      "label": "Usage Guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+ID,Risk / Escalation,Impact,Owner,Mitigation,Escalate By,Status
+R-01,Approval timing may affect milestone confidence,Medium,Program Manager,Confirm decision path this week,2026-06-02,Open
+E-01,Content dependency has not been resolved,High,Delivery Lead,Raise sponsor intervention request,2026-05-30,In Progress

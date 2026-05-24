@@ -1,0 +1,18 @@
+Website Redesign Planning Kit
+
+Included files in this folder:
+- website-planning-workbook.xlsx: Planning workbook with page structure, content needs, and launch tracking.
+- website-planning-brief-deck.pptx: Editable presentation deck for website planning, message alignment, and launch framing.
+- website-intake-questionnaire.docx: Business and website discovery prompts.
+- website-content-planner.docx: Page-by-page content planning template.
+- homepage-messaging-worksheet.docx: Homepage headline, proof, CTA, and offer clarity worksheet.
+- competitor-review-worksheet.docx: Lightweight competitor positioning review template.
+- website-launch-checklist.docx: Pre-launch and go-live checklist.
+- website-maintenance-checklist.docx: Ongoing content, SEO, and operations checklist.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-website-planning-guide.docx

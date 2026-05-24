@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Clarpoint Social Import</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/admin/social/social-admin.css">
+  </head>
+  <body class="social-admin-body">
+    <header class="admin-topbar">
+      <div class="admin-topbar-inner">
+        <a class="brand" href="/" aria-label="Clarpoint home">
+          <img class="brand-logo" src="/clarpoint-logo.png" alt="Clarpoint">
+        </a>
+        <nav class="admin-topnav" aria-label="Admin navigation">
+          <a class="admin-toplink" href="/admin/social">Library</a>
+          <a class="admin-toplink active" href="/admin/social/import">Import</a>
+        </nav>
+        <div class="admin-topbar-actions">
+          <button class="button tertiary" type="button" data-admin-logout>Log out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <section class="admin-page-header">
+        <div>
+          <p class="eyebrow">Document import</p>
+          <h1>Import Word batches, review extracted posts, and save them into the social library</h1>
+        </div>
+        <p class="lead">Use the local `website-marketing-posts` folder or upload a new `.docx`. Batch 2 auto-maps text with images. Batch 1 imports text and lets you assign images before saving.</p>
+      </section>
+
+      <section class="admin-two-column">
+        <div class="admin-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Local source docs</p>
+            <h2>Choose from the source folder</h2>
+          </div>
+          <div class="field-group">
+            <label for="documentSelect">Word document</label>
+            <select id="documentSelect"></select>
+          </div>
+          <div class="button-row">
+            <button class="button primary" type="button" id="parseSelectedDocument">Parse selected document</button>
+          </div>
+        </div>
+
+        <div class="admin-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Upload</p>
+            <h2>Upload a new batch</h2>
+          </div>
+          <form id="uploadDocumentForm" class="admin-form-grid">
+            <div class="field-group">
+              <label for="docxUpload">.docx file</label>
+              <input id="docxUpload" name="file" type="file" accept=".docx" required>
+            </div>
+            <div class="button-row">
+              <button class="button secondary" type="submit">Upload and parse</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="admin-section">
+        <div class="section-heading">
+          <p class="eyebrow">Review before import</p>
+          <h2>Validate text, confirm image mapping, and save selected posts</h2>
+        </div>
+        <p id="importWarnings" class="admin-callout" hidden></p>
+        <div class="table-wrap review-wrap">
+          <table class="admin-table review-table">
+            <thead>
+              <tr>
+                <th>Import</th>
+                <th>Post</th>
+                <th>Image</th>
+                <th>Hook</th>
+                <th>Main line</th>
+                <th>Short caption</th>
+                <th>CTA</th>
+                <th>Website</th>
+                <th>LinkedIn</th>
+                <th>Instagram</th>
+                <th>Facebook</th>
+              </tr>
+            </thead>
+            <tbody id="reviewTableBody">
+              <tr><td colspan="11" class="empty-state">Parse a document to review extracted posts here.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="button-row review-actions">
+          <button class="button primary" type="button" id="importSelectedPosts">Import selected posts</button>
+          <button class="button tertiary" type="button" id="refreshImageLibrary">Refresh image library</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/admin/social/social-admin.js"></script>
+    <script src="/admin/social/import.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+{
+  "productId": "client-kickoff-meeting-pack",
+  "productName": "Client Kickoff Meeting Pack",
+  "price": null,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "pdf/Quick Start Guide.pdf",
+      "label": "Quick Start Guide.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "pdf",
+      "path": "pdf/product-summary.pdf",
+      "label": "product-summary.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "word",
+      "path": "word/clarpoint-client-kickoff-guide.docx",
+      "label": "clarpoint-client-kickoff-guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/follow-up-email-template.docx",
+      "label": "follow-up-email-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/kickoff-agenda.docx",
+      "label": "kickoff-agenda.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/kickoff-deck-outline.docx",
+      "label": "kickoff-deck-outline.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/meeting-notes-template.docx",
+      "label": "meeting-notes-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/roles-and-responsibilities-template.docx",
+      "label": "roles-and-responsibilities-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/stakeholder-intake-form.docx",
+      "label": "stakeholder-intake-form.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "excel",
+      "path": "excel/client-kickoff-workbook.xlsx",
+      "label": "client-kickoff-workbook.xlsx",
+      "description": "Formatted Excel workbook with structured tabs, sample data, and reusable working views."
+    },
+    {
+      "format": "powerpoint",
+      "path": "powerpoint/client-kickoff-deck.pptx",
+      "label": "client-kickoff-deck.pptx",
+      "description": "Presentation deck for client, leadership, kickoff, or delivery conversations."
+    },
+    {
+      "format": "csv",
+      "path": "csv/decision-tracker-blank.csv",
+      "label": "decision-tracker-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/decision-tracker-example.csv",
+      "label": "decision-tracker-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/first-30-days-plan-blank.csv",
+      "label": "first-30-days-plan-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/first-30-days-plan-example.csv",
+      "label": "first-30-days-plan-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/roles-and-responsibilities-matrix-blank.csv",
+      "label": "roles-and-responsibilities-matrix-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/roles-and-responsibilities-matrix-example.csv",
+      "label": "roles-and-responsibilities-matrix-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/stakeholder-register-blank.csv",
+      "label": "stakeholder-register-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/stakeholder-register-example.csv",
+      "label": "stakeholder-register-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "preview",
+      "path": "preview/client-kickoff-workbook.png",
+      "label": "client-kickoff-workbook.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/index.html",
+      "label": "index.html",
+      "description": "Optional browser preview that shows the toolkit structure and included files."
+    },
+    {
+      "format": "preview",
+      "path": "preview/kickoff-deck.png",
+      "label": "kickoff-deck.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Example Use Case.docx",
+      "label": "Example Use Case.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Licensing Note.docx",
+      "label": "Licensing Note.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Usage Guide.docx",
+      "label": "Usage Guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    }
+  ]
+}

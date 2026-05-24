@@ -1,0 +1,15 @@
+RAID Log + Action Tracker Bundle
+
+Included files in this folder:
+- raid-action-control-workbook.xlsx: Editable workbook with RAID, actions, decisions, and a meeting-ready follow-up view.
+- raid-log.csv: Simple tracker for risks, assumptions, issues, and dependencies.
+- action-tracker.csv: Action register with owners, due dates, and status.
+- decision-log.csv: Decision log with rationale and downstream follow-up.
+- weekly-follow-up-template.docx: Weekly review template for moving open items toward action.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-raid-action-bundle-guide.docx

@@ -1,0 +1,17 @@
+Consulting Proposal Starter Kit
+
+Included files in this folder:
+- consulting-pricing-and-scope-workbook.xlsx: Editable workbook for pricing, scope structure, and onboarding checkpoints.
+- consulting-proposal-template.docx: Proposal template for service-based work.
+- service-offering-worksheet.docx: Worksheet for clarifying offers, outcomes, and delivery approach.
+- pricing-table.csv: Simple pricing table you can adapt for fixed fee or phased work.
+- discovery-call-notes-template.docx: Discovery call note template for qualifying work and next steps.
+- client-onboarding-checklist.docx: Checklist for new client setup.
+- scope-change-request-template.docx: Structured change request template for scope or timeline shifts.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-consulting-proposal-guide.docx

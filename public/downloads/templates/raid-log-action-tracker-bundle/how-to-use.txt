@@ -1,0 +1,8 @@
+RAID Log + Action Tracker Bundle
+
+Recommended use order:
+1. Use the workbook as the master version for active work.
+2. Share the CSV versions if the team wants lighter files for import or ad hoc updates.
+3. Use the weekly follow-up template to run shorter, more accountable check-ins.
+
+Clear plans. Stronger communication. Better execution.

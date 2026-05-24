@@ -1,0 +1,157 @@
+{
+  "productId": "website-redesign-planning-kit",
+  "productName": "Website Redesign Planning Kit",
+  "price": null,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "pdf/Quick Start Guide.pdf",
+      "label": "Quick Start Guide.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "pdf",
+      "path": "pdf/product-summary.pdf",
+      "label": "product-summary.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "word",
+      "path": "word/clarpoint-website-planning-guide.docx",
+      "label": "clarpoint-website-planning-guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/competitor-review-worksheet.docx",
+      "label": "competitor-review-worksheet.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/homepage-messaging-worksheet.docx",
+      "label": "homepage-messaging-worksheet.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/website-content-planner.docx",
+      "label": "website-content-planner.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/website-intake-questionnaire.docx",
+      "label": "website-intake-questionnaire.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/website-launch-checklist.docx",
+      "label": "website-launch-checklist.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/website-maintenance-checklist.docx",
+      "label": "website-maintenance-checklist.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "excel",
+      "path": "excel/website-planning-workbook.xlsx",
+      "label": "website-planning-workbook.xlsx",
+      "description": "Formatted Excel workbook with structured tabs, sample data, and reusable working views."
+    },
+    {
+      "format": "powerpoint",
+      "path": "powerpoint/website-planning-brief-deck.pptx",
+      "label": "website-planning-brief-deck.pptx",
+      "description": "Presentation deck for client, leadership, kickoff, or delivery conversations."
+    },
+    {
+      "format": "csv",
+      "path": "csv/competitor-review-worksheet-blank.csv",
+      "label": "competitor-review-worksheet-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/competitor-review-worksheet-example.csv",
+      "label": "competitor-review-worksheet-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/launch-readiness-checklist-blank.csv",
+      "label": "launch-readiness-checklist-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/launch-readiness-checklist-example.csv",
+      "label": "launch-readiness-checklist-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/website-content-inventory-blank.csv",
+      "label": "website-content-inventory-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/website-content-inventory-example.csv",
+      "label": "website-content-inventory-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/website-project-plan-blank.csv",
+      "label": "website-project-plan-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/website-project-plan-example.csv",
+      "label": "website-project-plan-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "preview",
+      "path": "preview/index.html",
+      "label": "index.html",
+      "description": "Optional browser preview that shows the toolkit structure and included files."
+    },
+    {
+      "format": "preview",
+      "path": "preview/website-deck.png",
+      "label": "website-deck.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/website-planning-workbook.png",
+      "label": "website-planning-workbook.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Example Use Case.docx",
+      "label": "Example Use Case.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Licensing Note.docx",
+      "label": "Licensing Note.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Usage Guide.docx",
+      "label": "Usage Guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    }
+  ]
+}

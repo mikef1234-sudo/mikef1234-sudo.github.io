@@ -1,0 +1,4 @@
+Action ID,Action,Owner,Due Date,Status,Priority,Notes
+ACT-01,Confirm milestone owners for next release,Program Manager,2026-05-29,In Progress,High,Review in Monday update
+ACT-02,Draft decision note for steering committee,Delivery Lead,2026-05-31,Open,High,Needs sponsor context
+ACT-03,Validate client-facing launch risks,Account Lead,2026-06-03,Open,Medium,Coordinate with tech lead

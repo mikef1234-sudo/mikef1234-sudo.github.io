@@ -1,0 +1,17 @@
+Client Kickoff Meeting Pack
+
+Included files in this folder:
+- client-kickoff-deck.pptx: Editable kickoff deck for the meeting itself.
+- client-kickoff-workbook.xlsx: Stakeholder and action workbook for kickoff follow-up.
+- kickoff-agenda.docx: Structured agenda for the kickoff session.
+- stakeholder-intake-form.docx: Question set for collecting stakeholder goals, constraints, and expectations.
+- roles-and-responsibilities-template.docx: Simple ownership template for delivery roles and working relationships.
+- meeting-notes-template.docx: Reusable kickoff notes and action capture template.
+- follow-up-email-template.docx: Post-kickoff email template that confirms decisions and next steps.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-client-kickoff-guide.docx

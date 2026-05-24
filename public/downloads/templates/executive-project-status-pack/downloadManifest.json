@@ -1,0 +1,175 @@
+{
+  "productId": "executive-project-status-pack",
+  "productName": "Executive Project Status Pack",
+  "price": null,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "pdf/Quick Start Guide.pdf",
+      "label": "Quick Start Guide.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "pdf",
+      "path": "pdf/product-summary.pdf",
+      "label": "product-summary.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "word",
+      "path": "word/clarpoint-executive-status-pack-guide.docx",
+      "label": "clarpoint-executive-status-pack-guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/escalation-communication-template.docx",
+      "label": "escalation-communication-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/executive-status-report-template.docx",
+      "label": "executive-status-report-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/executive-update-email-template.docx",
+      "label": "executive-update-email-template.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/steering-committee-slide-outline.docx",
+      "label": "steering-committee-slide-outline.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "excel",
+      "path": "excel/executive-project-control-workbook.xlsx",
+      "label": "executive-project-control-workbook.xlsx",
+      "description": "Formatted Excel workbook with structured tabs, sample data, and reusable working views."
+    },
+    {
+      "format": "powerpoint",
+      "path": "powerpoint/steering-committee-summary-deck.pptx",
+      "label": "steering-committee-summary-deck.pptx",
+      "description": "Presentation deck for client, leadership, kickoff, or delivery conversations."
+    },
+    {
+      "format": "csv",
+      "path": "csv/action-item-tracker-blank.csv",
+      "label": "action-item-tracker-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/action-item-tracker-example.csv",
+      "label": "action-item-tracker-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/action-item-tracker.csv",
+      "label": "action-item-tracker.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/action-ownership-tracker-blank.csv",
+      "label": "action-ownership-tracker-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/action-ownership-tracker-example.csv",
+      "label": "action-ownership-tracker-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/decision-log-blank.csv",
+      "label": "decision-log-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/decision-log-example.csv",
+      "label": "decision-log-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/decision-log.csv",
+      "label": "decision-log.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/raid-log-blank.csv",
+      "label": "raid-log-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/raid-log-example.csv",
+      "label": "raid-log-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/raid-log.csv",
+      "label": "raid-log.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/risk-and-escalation-register-blank.csv",
+      "label": "risk-and-escalation-register-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/risk-and-escalation-register-example.csv",
+      "label": "risk-and-escalation-register-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "preview",
+      "path": "preview/executive-deck.png",
+      "label": "executive-deck.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/executive-project-control-workbook.png",
+      "label": "executive-project-control-workbook.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/index.html",
+      "label": "index.html",
+      "description": "Optional browser preview that shows the toolkit structure and included files."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Example Use Case.docx",
+      "label": "Example Use Case.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Licensing Note.docx",
+      "label": "Licensing Note.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Usage Guide.docx",
+      "label": "Usage Guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    }
+  ]
+}

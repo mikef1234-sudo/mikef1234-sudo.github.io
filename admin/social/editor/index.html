@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Clarpoint Social Editor</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/admin/social/social-admin.css">
+  </head>
+  <body class="social-admin-body">
+    <header class="admin-topbar">
+      <div class="admin-topbar-inner">
+        <a class="brand" href="/" aria-label="Clarpoint home">
+          <img class="brand-logo" src="/clarpoint-logo.png" alt="Clarpoint">
+        </a>
+        <nav class="admin-topnav" aria-label="Admin navigation">
+          <a class="admin-toplink" href="/admin/social">Library</a>
+          <a class="admin-toplink" href="/admin/social/import">Import</a>
+        </nav>
+        <div class="admin-topbar-actions">
+          <button class="button tertiary" type="button" data-admin-logout>Log out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <section class="admin-page-header">
+        <div>
+          <p class="eyebrow">Post editor</p>
+          <h1>Edit imported social content, replace the image, and preview each platform version</h1>
+        </div>
+      </section>
+
+      <section class="admin-two-column editor-layout">
+        <form id="editorForm" class="admin-panel editor-form">
+          <div class="field-group"><label for="batchName">Batch</label><input id="batchName" name="batchName" type="text"></div>
+          <div class="field-group"><label for="postNumber">Post number</label><input id="postNumber" name="postNumber" type="number" min="1"></div>
+          <div class="field-group"><label for="title">Title</label><input id="title" name="title" type="text"></div>
+          <div class="field-group"><label for="hook">Hook</label><textarea id="hook" name="hook"></textarea></div>
+          <div class="field-group"><label for="mainPostLine">Main post line</label><textarea id="mainPostLine" name="mainPostLine"></textarea></div>
+          <div class="field-group"><label for="shortCaption">Short caption</label><textarea id="shortCaption" name="shortCaption"></textarea></div>
+          <div class="field-group"><label for="cta">CTA</label><input id="cta" name="cta" type="text"></div>
+          <div class="field-group"><label for="websiteUrl">Website URL</label><input id="websiteUrl" name="websiteUrl" type="url"></div>
+          <div class="field-group"><label for="platform">Primary platform</label><select id="platform" name="platform"><option value="">None</option><option>Instagram</option><option>Facebook</option><option>LinkedIn</option></select></div>
+          <div class="field-group"><label for="status">Status</label><select id="status" name="status"><option>Draft</option><option>Approved</option><option>Posted</option></select></div>
+          <div class="field-group"><label for="scheduledDate">Scheduled date</label><input id="scheduledDate" name="scheduledDate" type="date"></div>
+          <div class="field-group"><label for="publishedUrl">Published URL</label><input id="publishedUrl" name="publishedUrl" type="url"></div>
+          <div class="field-group"><label for="linkedinCaption">LinkedIn caption</label><textarea id="linkedinCaption" name="linkedinCaption"></textarea></div>
+          <div class="field-group"><label for="instagramCaption">Instagram caption</label><textarea id="instagramCaption" name="instagramCaption"></textarea></div>
+          <div class="field-group"><label for="facebookCaption">Facebook caption</label><textarea id="facebookCaption" name="facebookCaption"></textarea></div>
+          <div class="button-row">
+            <button class="button primary" type="submit">Save changes</button>
+            <button class="button secondary" type="button" id="copyFullPost">Copy full post</button>
+          </div>
+          <p id="editorStatus" class="form-status" aria-live="polite"></p>
+        </form>
+
+        <aside class="admin-panel editor-side">
+          <div class="section-heading">
+            <p class="eyebrow">Image and previews</p>
+            <h2>Current asset and platform-ready views</h2>
+          </div>
+          <div class="editor-image-wrap">
+            <img id="editorImagePreview" class="editor-image-preview" alt="Post preview">
+          </div>
+          <div class="field-group">
+            <label for="imageSelect">Replace with existing image</label>
+            <select id="imageSelect"></select>
+          </div>
+          <div class="field-group">
+            <label for="replacementImageUpload">Upload replacement image</label>
+            <input id="replacementImageUpload" type="file" accept="image/*">
+          </div>
+          <div class="preview-stack" id="editorPreviews"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/admin/social/social-admin.js"></script>
+    <script src="/admin/social/editor.js"></script>
+  </body>
+</html>

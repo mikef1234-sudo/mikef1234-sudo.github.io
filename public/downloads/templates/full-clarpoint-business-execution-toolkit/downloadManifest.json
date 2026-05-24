@@ -1,0 +1,115 @@
+{
+  "productId": "full-clarpoint-business-execution-toolkit",
+  "productName": "Full Clarpoint Business Execution Toolkit",
+  "price": null,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "pdf/Quick Start Guide.pdf",
+      "label": "Quick Start Guide.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "pdf",
+      "path": "pdf/product-summary.pdf",
+      "label": "product-summary.pdf",
+      "description": "Polished PDF guide or overview designed for quick review and client-ready sharing."
+    },
+    {
+      "format": "word",
+      "path": "word/bonus-executive-communication-templates.docx",
+      "label": "bonus-executive-communication-templates.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "word",
+      "path": "word/clarpoint-business-execution-bundle-guide.docx",
+      "label": "clarpoint-business-execution-bundle-guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "excel",
+      "path": "excel/clarpoint-toolkit-index.xlsx",
+      "label": "clarpoint-toolkit-index.xlsx",
+      "description": "Formatted Excel workbook with structured tabs, sample data, and reusable working views."
+    },
+    {
+      "format": "powerpoint",
+      "path": "powerpoint/full-clarpoint-client-delivery-system-overview-deck.pptx",
+      "label": "full-clarpoint-client-delivery-system-overview-deck.pptx",
+      "description": "Presentation deck for client, leadership, kickoff, or delivery conversations."
+    },
+    {
+      "format": "csv",
+      "path": "csv/delivery-workflow-planner-blank.csv",
+      "label": "delivery-workflow-planner-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/delivery-workflow-planner-example.csv",
+      "label": "delivery-workflow-planner-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/full-system-file-index-blank.csv",
+      "label": "full-system-file-index-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/full-system-file-index-example.csv",
+      "label": "full-system-file-index-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/toolkit-selection-matrix-blank.csv",
+      "label": "toolkit-selection-matrix-blank.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "csv",
+      "path": "csv/toolkit-selection-matrix-example.csv",
+      "label": "toolkit-selection-matrix-example.csv",
+      "description": "Import-friendly CSV file with either realistic sample rows or a blank version ready to customize."
+    },
+    {
+      "format": "preview",
+      "path": "preview/bundle-deck.png",
+      "label": "bundle-deck.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/clarpoint-toolkit-index.png",
+      "label": "clarpoint-toolkit-index.png",
+      "description": "Supporting file included in the product download."
+    },
+    {
+      "format": "preview",
+      "path": "preview/index.html",
+      "label": "index.html",
+      "description": "Optional browser preview that shows the toolkit structure and included files."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Example Use Case.docx",
+      "label": "Example Use Case.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Licensing Note.docx",
+      "label": "Licensing Note.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    },
+    {
+      "format": "docs",
+      "path": "docs/Usage Guide.docx",
+      "label": "Usage Guide.docx",
+      "description": "Editable Word document built for direct reuse, customization, and same-day delivery work."
+    }
+  ]
+}

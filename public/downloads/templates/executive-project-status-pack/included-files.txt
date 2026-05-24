@@ -1,0 +1,19 @@
+Executive Project Status Pack
+
+Included files in this folder:
+- executive-project-control-workbook.xlsx: Multi-sheet workbook for status tracking, RAID management, milestones, and decision visibility.
+- executive-status-report-template.docx: Editable one-page project status report for weekly or biweekly leadership reporting.
+- executive-update-email-template.docx: Short-form leadership update and decision request email template.
+- escalation-communication-template.docx: Structured escalation note for delivery risk, blockers, ownership gaps, or timeline pressure.
+- steering-committee-summary-deck.pptx: Presentation deck for steering committee or executive checkpoint discussions.
+- raid-log.csv: Lightweight tracker for risks, assumptions, issues, and dependencies.
+- action-item-tracker.csv: Owner-based follow-up tracker with due dates and status.
+- decision-log.csv: Decision history tracker with owners, impact, and follow-up needs.
+- steering-committee-slide-outline.md: Narrative outline behind the editable presentation deck.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-executive-status-pack-guide.docx

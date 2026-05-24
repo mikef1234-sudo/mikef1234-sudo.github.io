@@ -1,0 +1,16 @@
+Full Clarpoint Business Execution Toolkit
+
+Included files in this folder:
+- executive-project-status-pack.zip: Full Executive Project Status Pack delivery set.
+- raid-log-action-tracker-bundle.zip: Full RAID Log + Action Tracker Bundle delivery set.
+- client-kickoff-meeting-pack.zip: Full Client Kickoff Meeting Pack delivery set.
+- website-redesign-planning-kit.zip: Full Website Redesign Planning Kit delivery set.
+- consulting-proposal-starter-kit.zip: Full Consulting Proposal Starter Kit delivery set.
+- bonus-executive-communication-templates.docx: Bonus communication templates for sharper updates, asks, and readouts.
+
+Also included:
+- README.md
+- how-to-use.txt
+- included-files.txt
+- product-summary.pdf
+- clarpoint-business-execution-bundle-guide.docx

@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive,noimageindex">
+    <meta name="theme-color" content="#0f766e">
+    <title>Clarpoint Growth Studio | Internal</title>
+    <link rel="icon" type="image/png" href="../../clarpoint-mark.png">
+    <link rel="apple-touch-icon" href="../../clarpoint-mark.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .growth-studio-page .site-header {
+        position: sticky;
+      }
+
+      .growth-studio-page .nav-wrap {
+        justify-content: space-between;
+      }
+
+      .studio-shell {
+        width: min(100% - 32px, 1320px);
+        margin: 0 auto;
+      }
+
+      .studio-hero {
+        position: relative;
+        overflow: hidden;
+        padding: 72px 0 28px;
+      }
+
+      .studio-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 30%),
+          radial-gradient(circle at right center, rgba(33, 88, 216, 0.1), transparent 32%);
+        pointer-events: none;
+      }
+
+      .studio-hero-copy,
+      .studio-layout,
+      .studio-section {
+        position: relative;
+        z-index: 1;
+      }
+
+      .internal-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(15, 118, 110, 0.14);
+        background: rgba(255, 255, 255, 0.82);
+        color: var(--teal-deep);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .internal-badge::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--teal);
+      }
+
+      .studio-topbar {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .studio-topbar a {
+        color: var(--muted);
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .studio-hero-copy {
+        display: grid;
+        gap: 18px;
+        padding-top: 30px;
+      }
+
+      .studio-hero-copy h1 {
+        max-width: 980px;
+        font-size: clamp(2.9rem, 5.8vw, 4.6rem);
+      }
+
+      .studio-hero-copy .lead {
+        max-width: 920px;
+      }
+
+      .studio-note {
+        display: grid;
+        gap: 8px;
+        padding: 18px 20px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.78);
+        box-shadow: var(--shadow);
+        color: var(--muted);
+      }
+
+      .studio-layout {
+        display: grid;
+        grid-template-columns: minmax(340px, 0.95fr) minmax(0, 1.45fr);
+        gap: 22px;
+        padding-bottom: 72px;
+      }
+
+      .studio-panel,
+      .output-card,
+      .tracker-card,
+      .status-card,
+      .summary-card {
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.86);
+        box-shadow: var(--shadow);
+      }
+
+      .studio-panel,
+      .tracker-card,
+      .summary-card {
+        padding: 24px;
+      }
+
+      .studio-panel {
+        display: grid;
+        gap: 18px;
+        align-content: start;
+      }
+
+      .studio-panel h2,
+      .summary-card h2,
+      .studio-section h2 {
+        font-size: clamp(1.6rem, 3vw, 2.25rem);
+      }
+
+      .panel-heading {
+        display: grid;
+        gap: 10px;
+      }
+
+      .panel-grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .field-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .field-group-span {
+        grid-column: 1 / -1;
+      }
+
+      .admin-input,
+      .admin-select,
+      .admin-textarea {
+        width: 100%;
+        min-height: 52px;
+        padding: 13px 14px;
+        border: 1px solid var(--line-strong);
+        border-radius: 16px;
+        background: #fbfbf8;
+        color: var(--ink);
+        font: inherit;
+      }
+
+      .admin-textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+
+      .admin-input:focus,
+      .admin-select:focus,
+      .admin-textarea:focus {
+        border-color: var(--teal);
+        outline: 3px solid rgba(15, 118, 110, 0.15);
+      }
+
+      .button-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button.tertiary {
+        border-color: rgba(20, 34, 32, 0.12);
+        background: rgba(255, 255, 255, 0.64);
+        color: var(--ink);
+      }
+
+      .summary-card {
+        display: grid;
+        gap: 18px;
+        align-content: start;
+      }
+
+      .summary-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .summary-list div {
+        display: grid;
+        gap: 4px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .summary-list div:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .summary-label {
+        color: var(--teal);
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .summary-value {
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      .summary-footnote {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .studio-section {
+        padding: 0 0 72px;
+      }
+
+      .studio-section + .studio-section {
+        padding-top: 8px;
+      }
+
+      .studio-section-heading {
+        display: grid;
+        gap: 10px;
+        margin-bottom: 22px;
+      }
+
+      .output-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .output-card {
+        display: grid;
+        gap: 14px;
+        padding: 20px;
+        min-height: 280px;
+      }
+
+      .output-top {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 14px;
+      }
+
+      .output-meta {
+        display: grid;
+        gap: 6px;
+      }
+
+      .output-label {
+        color: var(--teal);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .output-card p {
+        color: var(--muted);
+      }
+
+      .output-text {
+        width: 100%;
+        min-height: 170px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(246, 245, 239, 0.72);
+        color: var(--ink);
+        padding: 16px;
+        font: inherit;
+        line-height: 1.58;
+        resize: vertical;
+      }
+
+      .copy-button {
+        min-height: 42px;
+        padding: 10px 14px;
+        border: 1px solid rgba(20, 34, 32, 0.12);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.78);
+        color: var(--ink);
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+
+      .copy-button:hover,
+      .copy-button:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(15, 118, 110, 0.3);
+        box-shadow: 0 16px 32px rgba(20, 34, 32, 0.08);
+        outline: none;
+      }
+
+      .copy-button.copied {
+        border-color: rgba(15, 118, 110, 0.28);
+        background: rgba(231, 244, 239, 0.94);
+        color: var(--teal-deep);
+      }
+
+      .tracker-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 0.96fr) minmax(0, 1.04fr);
+        gap: 18px;
+      }
+
+      .tracker-card {
+        display: grid;
+        gap: 18px;
+      }
+
+      .tracker-card h3 {
+        font-size: 1.25rem;
+      }
+
+      .status-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .status-card {
+        min-width: 120px;
+        padding: 14px 16px;
+        display: grid;
+        gap: 4px;
+      }
+
+      .status-card strong {
+        font-size: 1.55rem;
+        line-height: 1;
+      }
+
+      .status-card span {
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.74);
+      }
+
+      .admin-table {
+        width: 100%;
+        min-width: 820px;
+        border-collapse: collapse;
+      }
+
+      .admin-table th,
+      .admin-table td {
+        padding: 14px 12px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+        text-align: left;
+      }
+
+      .admin-table th {
+        color: var(--teal-deep);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .admin-table tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .table-input,
+      .table-select,
+      .table-textarea {
+        width: 100%;
+        min-height: 42px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: rgba(246, 245, 239, 0.75);
+        color: var(--ink);
+        font: inherit;
+      }
+
+      .table-textarea {
+        min-height: 74px;
+        resize: vertical;
+      }
+
+      .table-delete {
+        min-height: 40px;
+        padding: 9px 12px;
+        border: 1px solid rgba(185, 28, 28, 0.12);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.84);
+        color: #8a2626;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .empty-state {
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      @media (max-width: 1180px) {
+        .studio-layout,
+        .tracker-layout,
+        .output-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .studio-hero {
+          padding: 58px 0 24px;
+        }
+
+        .field-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .studio-shell {
+          width: min(100% - 24px, 1320px);
+        }
+
+        .output-card,
+        .studio-panel,
+        .tracker-card,
+        .summary-card {
+          padding: 18px;
+          border-radius: 20px;
+        }
+
+        .studio-topbar {
+          flex-direction: column;
+          align-items: start;
+        }
+      }
+    </style>
+  </head>
+  <body class="growth-studio-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="/" aria-label="Clarpoint home">
+          <img class="brand-logo" src="../../clarpoint-logo.png" alt="Clarpoint">
+        </a>
+        <div class="studio-topbar">
+          <span class="internal-badge">Internal use only</span>
+          <a href="/">Back to public site</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="studio-hero">
+        <div class="studio-shell">
+          <div class="studio-hero-copy">
+            <p class="eyebrow">Admin / Growth Studio</p>
+            <h1>Generate ready-to-copy social, ad, and video content from one campaign brief.</h1>
+            <p class="lead">This private Clarpoint tool creates copy for LinkedIn, Facebook, Instagram, Meta ads, LinkedIn ads, and Higgsfield prompt development. It is built for copy and planning first, with no direct posting or API connections.</p>
+            <div class="studio-note">
+              <strong>Private workflow note</strong>
+              <p>Nothing from this route appears in the public navigation. Calendar items and performance notes are stored locally in this browser for internal planning use.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="studio-shell studio-layout">
+        <div class="studio-panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Campaign brief</p>
+            <h2>Build the content brief once.</h2>
+            <p class="body-copy">Fill in the campaign context, then generate platform-ready copy, creative direction, and publishing suggestions.</p>
+          </div>
+
+          <form id="growth-studio-form" class="panel-grid">
+            <div class="field-grid">
+              <div class="field-group">
+                <label for="campaignName">Campaign name</label>
+                <input class="admin-input" id="campaignName" name="campaignName" type="text" placeholder="Q3 website clarity sprint push" required>
+              </div>
+              <div class="field-group">
+                <label for="campaignObjective">Campaign objective</label>
+                <input class="admin-input" id="campaignObjective" name="campaignObjective" type="text" placeholder="Lead generation for clarity sprint" required>
+              </div>
+              <div class="field-group">
+                <label for="audience">Audience</label>
+                <input class="admin-input" id="audience" name="audience" type="text" placeholder="Founders, operators, and delivery leads" required>
+              </div>
+              <div class="field-group">
+                <label for="offer">Offer</label>
+                <input class="admin-input" id="offer" name="offer" type="text" placeholder="Website Clarity Sprint" required>
+              </div>
+              <div class="field-group field-group-span">
+                <label for="painPoint">Pain point</label>
+                <textarea class="admin-textarea" id="painPoint" name="painPoint" placeholder="The website is live, but the positioning is unclear and the message is not converting." required></textarea>
+              </div>
+              <div class="field-group">
+                <label for="tone">Tone</label>
+                <select class="admin-select" id="tone" name="tone">
+                  <option>Practical and polished</option>
+                  <option>Confident and direct</option>
+                  <option>Founder-led and human</option>
+                  <option>Executive-ready and concise</option>
+                  <option>Urgent and action-focused</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="platform">Primary platform</label>
+                <select class="admin-select" id="platform" name="platform">
+                  <option>LinkedIn</option>
+                  <option>Facebook</option>
+                  <option>Instagram</option>
+                  <option>Meta Ads</option>
+                  <option>LinkedIn Ads</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="cta">Primary CTA</label>
+                <input class="admin-input" id="cta" name="cta" type="text" placeholder="Book a discovery call" required>
+              </div>
+              <div class="field-group">
+                <label for="landingPage">Landing page</label>
+                <input class="admin-input" id="landingPage" name="landingPage" type="url" placeholder="https://clarpoint.co/services.html" required>
+              </div>
+              <div class="field-group field-group-span">
+                <label for="contentType">Content type</label>
+                <select class="admin-select" id="contentType" name="contentType">
+                  <option>Organic post</option>
+                  <option>Paid ad</option>
+                  <option>Reel/video</option>
+                  <option>Carousel</option>
+                  <option>Founder post</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="button-stack">
+              <button class="button primary" type="submit">Generate content</button>
+              <button class="button secondary" type="button" id="saveToCalendar">Add current brief to calendar</button>
+              <button class="button tertiary" type="button" id="copyAllOutputs">Copy all outputs</button>
+              <button class="button tertiary" type="reset">Reset brief</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="summary-card" aria-label="Campaign summary">
+          <div class="panel-heading">
+            <p class="eyebrow">Snapshot</p>
+            <h2>Quick working summary</h2>
+            <p class="body-copy">Use this panel to check the strategic shape of the brief before copying anything into channel-specific workflows.</p>
+          </div>
+          <div class="summary-list" id="campaignSummary">
+            <div>
+              <span class="summary-label">Campaign</span>
+              <span class="summary-value">No campaign loaded yet.</span>
+            </div>
+            <div>
+              <span class="summary-label">Focus</span>
+              <span class="summary-value">Add the core business problem and offer.</span>
+            </div>
+            <div>
+              <span class="summary-label">Primary use</span>
+              <span class="summary-value">Choose a platform and content type.</span>
+            </div>
+            <div>
+              <span class="summary-label">Call to action</span>
+              <span class="summary-value">Your primary CTA will appear here.</span>
+            </div>
+          </div>
+          <p class="summary-footnote">Internal note: generated copy can be edited freely before posting. This tool is intentionally built for copy/paste use first.</p>
+        </aside>
+      </section>
+
+      <section class="studio-shell studio-section">
+        <div class="studio-section-heading">
+          <p class="eyebrow">Generated outputs</p>
+          <h2>Copy, prompts, and publishing guidance</h2>
+          <p class="body-copy">Every output below is ready to copy. Generate once, then adapt as needed for campaign iteration.</p>
+        </div>
+        <div class="output-grid" id="outputGrid"></div>
+      </section>
+
+      <section class="studio-shell studio-section">
+        <div class="studio-section-heading">
+          <p class="eyebrow">Planning and tracking</p>
+          <h2>Content calendar and manual performance tracking</h2>
+          <p class="body-copy">Use the calendar to manage status, then add actual performance numbers manually after publishing.</p>
+        </div>
+
+        <div class="tracker-layout">
+          <div class="tracker-card">
+            <div class="panel-heading">
+              <p class="eyebrow">Content calendar</p>
+              <h3>Status overview</h3>
+            </div>
+            <div class="status-row" id="calendarStatusSummary"></div>
+            <div class="table-wrap">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>Campaign</th>
+                    <th>Platform</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                    <th>Landing page</th>
+                    <th>Notes</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="calendarTableBody">
+                  <tr>
+                    <td class="empty-state" colspan="7">No calendar items yet. Generate a brief and add it to the calendar.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="tracker-card">
+            <div class="panel-heading">
+              <p class="eyebrow">Manual performance tracking</p>
+              <h3>Track what happened after posting</h3>
+            </div>
+            <form id="performanceForm" class="panel-grid">
+              <div class="field-grid">
+                <div class="field-group">
+                  <label for="perfPlatform">Platform</label>
+                  <select class="admin-select" id="perfPlatform" name="platform" required>
+                    <option value="">Select one</option>
+                    <option>LinkedIn</option>
+                    <option>Facebook</option>
+                    <option>Instagram</option>
+                    <option>Meta Ads</option>
+                    <option>LinkedIn Ads</option>
+                  </select>
+                </div>
+                <div class="field-group">
+                  <label for="perfPostUrl">Post URL</label>
+                  <input class="admin-input" id="perfPostUrl" name="postUrl" type="url" placeholder="https://..." required>
+                </div>
+                <div class="field-group">
+                  <label for="perfImpressions">Impressions</label>
+                  <input class="admin-input" id="perfImpressions" name="impressions" type="number" min="0" placeholder="0" required>
+                </div>
+                <div class="field-group">
+                  <label for="perfClicks">Clicks</label>
+                  <input class="admin-input" id="perfClicks" name="clicks" type="number" min="0" placeholder="0" required>
+                </div>
+                <div class="field-group">
+                  <label for="perfFollowers">Followers gained</label>
+                  <input class="admin-input" id="perfFollowers" name="followersGained" type="number" min="0" placeholder="0">
+                </div>
+                <div class="field-group">
+                  <label for="perfLeads">Leads generated</label>
+                  <input class="admin-input" id="perfLeads" name="leadsGenerated" type="number" min="0" placeholder="0">
+                </div>
+                <div class="field-group field-group-span">
+                  <label for="perfNotes">Notes</label>
+                  <textarea class="admin-textarea" id="perfNotes" name="notes" placeholder="What worked, what underperformed, and what to test next."></textarea>
+                </div>
+              </div>
+              <div class="button-stack">
+                <button class="button primary" type="submit">Add performance record</button>
+              </div>
+            </form>
+            <div class="table-wrap">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>Post URL</th>
+                    <th>Impressions</th>
+                    <th>Clicks</th>
+                    <th>Followers</th>
+                    <th>Leads</th>
+                    <th>Notes</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="performanceTableBody">
+                  <tr>
+                    <td class="empty-state" colspan="8">No performance records yet. Add numbers manually after posting.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./growth-studio.js"></script>
+  </body>
+</html>
