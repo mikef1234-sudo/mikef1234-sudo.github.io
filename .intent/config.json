@@ -1,0 +1,10 @@
+{
+  "scripts": [
+    {
+      "name": "generate:templates",
+      "command": "npm run generate:templates",
+      "mode": "command",
+      "category": "other"
+    }
+  ]
+}
