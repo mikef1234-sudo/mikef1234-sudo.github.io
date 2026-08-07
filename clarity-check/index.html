@@ -68,10 +68,11 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </button>
         <nav class="nav-menu" data-menu aria-label="Main navigation">
-          <a class="nav-link" href="../templates/index.html">Templates</a>
           <a class="nav-link" href="../services.html">Services</a>
+          <a class="nav-link" href="../templates/index.html">Templates</a>
           <a class="nav-link" href="../about.html">About</a>
           <a class="nav-link" href="../contact.html">Contact</a>
+          <a class="nav-cta" href="./">Free Clarity Check</a>
         </nav>
       </div>
     </header>
@@ -91,7 +92,10 @@
             <p class="lead">Clarpoint helps businesses and teams organize messy projects, improve communication, clarify ownership, and strengthen follow-through.</p>
             <div class="button-row" aria-label="Primary landing page actions">
               <a class="button primary" href="#clarity-check-form">Request a Free Clarity Check</a>
-              <a class="button secondary" href="../services.html">View Services</a>
+              <a class="button secondary-calendar" href="https://cal.com/clarpoint/clarity-check" target="_blank" rel="noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Book Calendar Directly</span>
+              </a>
             </div>
             <p class="clarity-trust-line">Clear plans. Stronger communication. Better execution.</p>
           </div>
@@ -159,7 +163,7 @@
               <p class="eyebrow">Request Form</p>
               <h2>Request your free Clarpoint Clarity Check</h2>
             </div>
-            <form class="contact-form" data-clarity-check-form>
+            <form class="contact-form" data-inquiry-form action="mailto:mikejferrari12@gmail.com?subject=Clarpoint%20Clarity%20Check%20Request" method="post" enctype="text/plain">
               <div class="field-group">
                 <label for="clarity-name">Name<span class="required-marker" aria-hidden="true">*</span></label>
                 <input id="clarity-name" name="name" type="text" autocomplete="name" required>
@@ -204,15 +208,10 @@
                 <label for="clarity-link">LinkedIn or website URL</label>
                 <input id="clarity-link" name="reference_url" type="url" inputmode="url">
               </div>
-              <button class="button primary" type="submit">Request a Free Clarity Check</button>
-              <p class="clarity-form-note">Free request, no checkout required.</p>
+              <button class="button primary" type="submit">Send My Free Clarity Check Request</button>
+              <p class="clarity-form-note">Free request. Submitting opens your email app with your details ready to send.</p>
               <p class="form-status" data-form-status aria-live="polite"></p>
             </form>
-            <div class="clarity-confirmation" data-clarity-confirmation hidden>
-              <p class="eyebrow">Request received</p>
-              <h3>Thanks — your Clarity Check request has been received.</h3>
-              <p>Clarpoint will follow up shortly.</p>
-            </div>
           </div>
         </div>
       </section>

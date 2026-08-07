@@ -116,6 +116,26 @@ a {
   outline: none;
 }
 
+.nav-cta {
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--teal);
+  color: var(--white) !important;
+  font-size: 0.94rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(15, 118, 110, 0.25);
+  margin-left: 4px;
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+  background: var(--teal-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(15, 118, 110, 0.35);
+}
+
 .mobile-toggle {
   display: none;
   width: 44px;
@@ -317,6 +337,7 @@ p {
   border-radius: 999px;
   font-weight: 800;
   text-decoration: none;
+  gap: 8px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
@@ -330,6 +351,18 @@ p {
   border-color: var(--line-strong);
   background: rgba(255, 255, 255, 0.78);
   color: var(--ink);
+}
+
+.button.secondary-calendar {
+  border-color: rgba(15, 118, 110, 0.4);
+  background: rgba(15, 118, 110, 0.07);
+  color: var(--teal-deep);
+}
+
+.button.secondary-calendar:hover,
+.button.secondary-calendar:focus-visible {
+  background: rgba(15, 118, 110, 0.14);
+  border-color: var(--teal);
 }
 
 .button:hover,
@@ -399,6 +432,28 @@ p {
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.84);
   box-shadow: var(--shadow);
+}
+
+.calendar-booking-card {
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.08) 0%, rgba(255, 255, 255, 0.95) 100%);
+  border: 1px solid rgba(15, 118, 110, 0.28);
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.calendar-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--teal);
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .focus-card,
