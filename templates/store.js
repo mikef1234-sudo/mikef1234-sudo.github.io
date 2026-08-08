@@ -240,7 +240,7 @@
           </div>
           <div class="button-row">
             ${buyButton(product, "../../")}
-            <a class="button secondary" href="../../clarity-check/index.html" data-event="clarity_check_clicked">Book a Clarity Check</a>
+            <a class="button secondary" href="https://calendar.app.google/23v4SwJ3VqkbbDM68" target="_blank" rel="noreferrer" data-event="calendar_clicked">Book a Call</a>
           </div>
           <p class="template-delivery-note">After purchase, you will receive instant access to download the template files.</p>
           ${product.stripePaymentLink ? "" : `<p class="template-setup-note">Add a Stripe Payment Link in <code>data/templates.js</code> to activate direct checkout for this product.</p>`}
@@ -305,10 +305,10 @@
             <div>
               <p class="eyebrow">Custom Support</p>
               <h2>Need help customizing this for your business?</h2>
-              <p>Book a free Clarpoint Clarity Check if you want help adapting this toolkit into a full operating model, project plan, executive readout, website plan, or client delivery system.</p>
+              <p>Book a call if you want help adapting this toolkit into a full operating model, project plan, executive readout, website plan, or client delivery system.</p>
             </div>
             <div class="button-row">
-              <a class="button primary" href="../../clarity-check/index.html" data-event="clarity_check_clicked">Book a Clarity Check</a>
+              <a class="button primary" href="https://calendar.app.google/23v4SwJ3VqkbbDM68" target="_blank" rel="noreferrer" data-event="calendar_clicked">Book a Call</a>
               <a class="button secondary" href="../../contact.html">Contact Clarpoint</a>
               <a class="button secondary" href="../index.html">Back to Templates</a>
             </div>
@@ -339,7 +339,7 @@
         <p class="template-price">${currency(product.price)}</p>
         <div class="button-row">
           <a class="button primary" href="..${product.downloadFilePath}download-all.zip" data-event="template_download_click" data-template-id="${product.id}" data-template-slug="${product.slug}">Download All Files</a>
-          <a class="button secondary" href="../clarity-check/index.html" data-event="clarity_check_clicked">Book a Clarity Check</a>
+          <a class="button secondary" href="https://calendar.app.google/23v4SwJ3VqkbbDM68" target="_blank" rel="noreferrer" data-event="calendar_clicked">Book a Call</a>
         </div>
       </div>
       <div class="template-download-list">
